@@ -14,10 +14,10 @@ node {
     when {
       branch "fix-*"
     }
-    steps {
+    
       sh '''
         cat README.md
       '''
-    }
+    
   }
 }
